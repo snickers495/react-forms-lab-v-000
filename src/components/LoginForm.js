@@ -19,7 +19,7 @@ class LoginForm extends React.Component {
 
 
   render() {
-    const isEnabled = {this.state.password && this.state.}
+    const isEnabled = {this.state.password && this.state.text}
     return (
       <form onSubmit={this.props.onSubmit}>
         <div>
@@ -35,7 +35,7 @@ class LoginForm extends React.Component {
           </label>
         </div>
         <div>
-          <button type="submit">Log in</button>
+          <button disabledtype="submit">Log in</button>
         </div>
       </form>
     );
