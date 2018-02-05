@@ -8,6 +8,7 @@ class PoemWriter extends React.Component {
       poem: ''
     };
   }
+  
 
   render() {
     return (
