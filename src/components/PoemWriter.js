@@ -13,7 +13,7 @@ class PoemWriter extends React.Component {
     var input = event.target.value;
     if (input.split('\n').length === 3) {
       var [line1, line2, line3] = input.split('\n');
-      if (line1.split(" ") === 5)
+      if (line1.split(" ") === 5 )
     }
     this.setState({poem: input})
   }
