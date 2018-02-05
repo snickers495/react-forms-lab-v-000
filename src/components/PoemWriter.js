@@ -12,7 +12,7 @@ class PoemWriter extends React.Component {
   }
   handleChange = (event)=> {
     var input = event.target.value;
-    
+    var 
     this.setState({poem: input})
   }
 
