@@ -35,7 +35,7 @@ class LoginForm extends React.Component {
           </label>
         </div>
         <div>
-          <button disabled={!} type="submit">Log in</button>
+          <button disabled={!isEnabled} type="submit">Log in</button>
         </div>
       </form>
     );
