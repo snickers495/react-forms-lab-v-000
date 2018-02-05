@@ -14,7 +14,6 @@ class LoginForm extends React.Component {
     this.setState({text: event.target.value})}
   }
   handlePassword = (event) => {
-    if (event.target.value) {
     this.setState({password: event.target.value})}
   }
 
