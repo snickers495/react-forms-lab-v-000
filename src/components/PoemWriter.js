@@ -14,7 +14,7 @@ class PoemWriter extends React.Component {
     if (input.split('\n').length === 3) {
       var [line1, line2, line3] = input.split('\n');
       if (line1.split(" ") === 5 && line2.split(" ") === 3 && line3.split(" ") === 5) {
-        
+        this.setState({poem: input, })
       }
     }
 
