@@ -17,7 +17,6 @@ class PoemWriter extends React.Component {
         this.setState({poem: input, isValid: true})
       }
     }
-
   }
 
   render() {
