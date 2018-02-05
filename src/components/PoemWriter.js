@@ -5,12 +5,12 @@ class PoemWriter extends React.Component {
     super();
 
     this.state = {
-      poem: ''
+      poem: 
     };
   }
   handleChange = (event)=> {
     var input = event.target.value;
-    this.setState({poem: })
+    this.setState({poem: input})
   }
 
   render() {
