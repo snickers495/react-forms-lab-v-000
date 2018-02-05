@@ -11,6 +11,7 @@ class PoemWriter extends React.Component {
   }
   handleChange = (event)=> {
     var input = event.target.value;
+    if *
     var [line1, line2, line3] = input.split('\n');
     this.setState({poem: input})
   }
