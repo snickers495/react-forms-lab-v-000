@@ -5,9 +5,7 @@ class PoemWriter extends React.Component {
     super();
 
     this.state = {
-      poem: { line1: '',
-              line2: '',
-              line3: ''}
+      poem: ''
     };
   }
   handleChange = (event)=> {
