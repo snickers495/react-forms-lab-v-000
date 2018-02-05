@@ -9,7 +9,7 @@ class PoemWriter extends React.Component {
     };
   }
   handleChange = (event)=> {
-
+    var 
   }
 
   render() {
