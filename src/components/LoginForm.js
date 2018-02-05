@@ -19,7 +19,7 @@ class LoginForm extends React.Component {
 
 
   render() {
-    const isEnabled = {this.state.}
+    const isEnabled = {this.state.password}
     return (
       <form onSubmit={this.props.onSubmit}>
         <div>
